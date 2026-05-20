@@ -2,7 +2,7 @@
 
 ## 1. What is Docker?
 
-Docker is a platform that packages applications and their dependencies into lightweight, portable containers. A container is an isolated process that runs your application with everything it needs, sharing the host's kernel but maintaining its own filesystem, process tree, and network stack.
+Docker is a platform that packages applications and their dependencies into lightweight, portable containers. A container is an isolated native **process** that runs your application with everything it needs, sharing the host's kernel but maintaining its own filesystem, process tree, and network stack.
 
 ### Key Benefits
 - **Lightweight**: Containers share the host kernel, making them much smaller than virtual machines
@@ -31,7 +31,7 @@ Containers are a lightweight form of virtualization that package an application 
 
 **Hybrid and Multi-Cloud Deployments**
 - The same container image can run:
-  - On-premises
+  - On-premises (physically hosts)
   - In private cloud
   - Across multiple public clouds (AWS, Azure, GCP)
 

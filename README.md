@@ -1,2 +1,2 @@
-# DevOps
-This repo contains the basics of DevOps
+# MLOps
+This repo contains the basics of MLOps
